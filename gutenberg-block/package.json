@@ -1,0 +1,26 @@
+{
+  "name": "stax-payments-button",
+  "version": "1.0.0",
+  "description": "Add a Stax Web Payments button to your website.",
+  "main": "dist/block.js",
+  "source": {
+    "src/**/*.css": "dist/styles"
+  },
+  "scripts": {
+    "watch": "parcel watch src/block.jsx",
+    "build": "parcel build src/block.jsx --no-content-hash"
+  },
+  "author": "Fattmerchant, Inc",
+  "license": "LGPL-2.1-or-later",
+  "devDependencies": {
+    "@wordpress/babel-preset-default": "^7.0.0",
+    "@wordpress/blocks": "^11.15.0",
+    "@wordpress/element": "^4.14.0",
+    "parcel": "^2.7.0"
+  },
+  "babel": {
+    "presets": [
+      "@wordpress/default"
+    ]
+  }
+}

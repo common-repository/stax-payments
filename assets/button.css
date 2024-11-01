@@ -1,0 +1,42 @@
+button.stax-payments-button {
+  margin: 3px;
+  border-width: 2px;
+  border-style: solid;
+  outline: none;
+  padding: 8px;
+
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+button.stax-payments-button:hover,
+button.stax-payments-button:focus {
+  opacity: 0.8;
+}
+
+button.stax-payments-button.dark {
+  background: #b93be4;
+  color: #fff;
+  border-color: #b93be4;
+}
+
+button.stax-payments-button.light {
+  background: #fff;
+  color: #b93be4;
+  border-color: #b93be4;
+}
+
+button.stax-payments-button.custom {
+  background: var(--bg-custom);
+  color: var(--text-custom);
+  border-color: var(--border-custom);
+}
+
+.stax-payments-button__logo-wrap {
+  margin-right: 12px;
+  display: flex;
+}
+
+.stax-payments-button__logo-wrap svg {
+  width: 20px;
+}

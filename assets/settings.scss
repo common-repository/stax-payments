@@ -1,0 +1,105 @@
+.settings_page_stax-payments-settings {
+  .stax-banner {
+    display: flex;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .stax-token-form-layout {
+    margin: 20px 0;
+    display: flex;
+
+    form {
+      flex-basis: 500px;
+      margin-left: 80px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      a {
+        cursor: pointer;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .stax-help-modal {
+    position: relative;
+    background: #fff;
+    padding: 34px 31px;
+    width: auto;
+    max-width: 531px;
+    margin: 20px auto;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 4px;
+    }
+
+    &__footer {
+      margin-top: 40px;
+
+      display: flex;
+      justify-content: center;
+    }
+
+    .mfp-close {
+      color: #2271b1;
+      &:hover,
+      &:focus {
+        color: #135e96;
+      }
+
+      border: 1px solid #ccc;
+      border-radius: 100%;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .stax-logo-mini {
+    color: #b93be4;
+    width: 16px;
+    margin: 0 4px;
+    position: relative;
+    top: 2px;
+    border: 1px solid #50575e;
+    border-radius: 3px;
+    padding: 2px;
+    display: inline-flex;
+
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  code {
+    display: block;
+    font-family: monospace;
+    margin: 10px 0;
+  }
+
+  //wordpress override
+  #poststuff h2 {
+    padding-left: 16px;
+  }
+
+  ol > li {
+    margin-bottom: 12px;
+    line-height: 22px;
+  }
+}
